@@ -3,10 +3,40 @@
 }
 
 .navbar{
-    background-color:#DBE4EE; 
+    /* background-color:#DBE4EE;  */
 }
 
 .navbar .nav-item a:hover{
     background-color:#55B8EF !important;
     color: #FFFFFF !important;
+}
+
+hr { 
+    background: url("images/trees.svg") no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 25px;
+    border: 0;
+    position: relative;
+    margin: 2em 3em;
+}
+
+hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background:silver;
+    height: 2px;
+    top: 8px;
+}
+hr:before {
+    left: 0;
+    right: 55%;
+    margin-right: 10px;
+}
+hr:after {
+    right: 0;
+    left: 55%;
+    margin-left: 10px;
 }
