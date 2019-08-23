@@ -11,6 +11,10 @@
     color: #FFFFFF !important;
 }
 
+#join-us-scout-night-title{
+    padding-bottom: 10px;
+}
+
 hr { 
     background: url("images/trees.svg") no-repeat top center;
     background-size: contain;
