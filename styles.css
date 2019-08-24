@@ -1,14 +1,18 @@
-.navbar .nav-item a{
+/* .navbar .nav-item a{
     color:#55B8EF !important;
 }
 
 .navbar{
-    /* background-color:#DBE4EE;  */
+     background-color:#DBE4EE;  
 }
 
 .navbar .nav-item a:hover{
     background-color:#55B8EF !important;
     color: #FFFFFF !important;
+} */
+
+h1{
+    color: #006DDF !important;
 }
 
 #join-us-scout-night-title{
@@ -22,7 +26,6 @@ hr {
     height: 25px;
     border: 0;
     position: relative;
-    margin: 2em 3em;
 }
 
 hr:before,
@@ -43,4 +46,19 @@ hr:after {
     right: 0;
     left: 55%;
     margin-left: 10px;
+}
+
+.card-img-bottom {
+    overflow: hidden;
+} 
+
+section.content-block {
+    margin: 30px 0;
+}
+
+section.content-block main {
+    /* float: right;
+    padding: 100px 60px;
+    width: 40%; */
+    background-color: #F2EDE7;
 }
