@@ -3,20 +3,17 @@
 }
 
 
-.jumbotron a{
+.jumbotron .social-icon{
     color: #FFFFFF;
     font-size: 50px;
 }
 
-.jumbotron a:hover{
+.jumbotron .social-icon:hover{
     color: #FFE627;
     text-decoration: none;
+    
 }
 
-
-.jumbotron button{
-    background-color: #FFE627;
-}
 
 #join-us-scout-night-title{
     padding-bottom: 10px;
@@ -77,36 +74,10 @@ hr:after {
     color: white;
 }
 
-button:before {
-    content: '->';
-    position: absolute;
-    opacity: 0;  
-    /* top: 14px; */
-    right: -70px;
-    transition: 0.5s;
-  }
-  
-  button:hover{
-    padding-right: 24px;
-    padding-left:20px;
-  }
-  
-  button:hover:after {
-    opacity: 1;
-    right: 10px;
-  }
 
 
 
-  /* Testing */
-.responsive {
-    width: 100%;
-    height: auto;
-  }
 
-section.content-block {
-    margin: 30px 0;
-}
 
 .card-content{
     padding: 0;
@@ -116,9 +87,62 @@ section.content-block {
     background-color: #F2EDE7
     
 }
-
-
 .card-content main { 
     padding: 10%;
     background-color: #F2EDE7;
  }
+
+
+ /* .butt{
+    background-color: #FFE627;
+    font-weight: bold;
+    border-radius:0;
+    font-size: 30px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.butt:hover{
+    background-color: #006DDF;
+} */
+
+/* Button Animations */
+button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  outline:0;background-color:#FFE627;
+  display: inline-block;
+  font-weight: bold;
+  border-radius:0;
+  font-size: 24px;
+  padding: 10px;
+}
+
+svg {
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.right {
+  left: 58%;
+}
+
+.right:hover polyline,
+.right:focus polyline {
+  stroke-width: 3;
+}
+
+.right:active polyline {
+  stroke-width: 6;
+  transition: all 100ms ease-in-out;
+}
+
+polyline {
+  transition: all 250ms ease-in-out;
+}
+
+.btn-text{
+    text-align: center;
+}
