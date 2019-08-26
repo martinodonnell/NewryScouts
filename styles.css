@@ -1,24 +1,21 @@
-/* .navbar .nav-item a{
-    color:#55B8EF !important;
-}
-
-.navbar{
-     background-color:#DBE4EE;  
-}
-
-.navbar .nav-item a:hover{
-    background-color:#55B8EF !important;
-    color: #FFFFFF !important;
-} */
-
-
-
-/* h1{
-    color: #006DDF !important;
-} */
-
-#jumbotron{
+.jumbotron{
     background-color:#006DDF !important;
+}
+
+
+.jumbotron a{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.jumbotron a:hover{
+    color: #FFE627;
+    text-decoration: none;
+}
+
+
+.jumbotron button{
+    background-color: #FFE627;
 }
 
 #join-us-scout-night-title{
@@ -58,16 +55,7 @@ hr:after {
     overflow: hidden;
 } 
 
-section.content-block {
-    margin: 30px 0;
-}
 
-section.content-block main {
-    /* float: right;
-    padding: 100px 60px;
-    width: 40%; */
-    background-color: #F2EDE7;
-}
 
 /* The hero image */
 .hero-image {
@@ -91,3 +79,49 @@ section.content-block main {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+button:before {
+    content: '->';
+    position: absolute;
+    opacity: 0;  
+    /* top: 14px; */
+    right: -70px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:20px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+
+
+  /* Testing */
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+section.content-block {
+    margin: 30px 0;
+}
+
+.card-content{
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;  
+    background-color: #F2EDE7
+    
+}
+
+
+.card-content main { 
+    padding: 10%;
+    background-color: #F2EDE7;
+ }
