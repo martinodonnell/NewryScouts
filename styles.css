@@ -111,7 +111,7 @@ hr:after {
 } */
 
 /* Button Animations */
-button {
+.contact-button {
   -webkit-appearance: none;
   background: transparent;
   border: 0;
@@ -129,16 +129,16 @@ svg {
   vertical-align: middle;
 }
 
-.right {
+.contact-button {
   left: 58%;
 }
 
-.right:hover polyline,
-.right:focus polyline {
+.contact-button:hover polyline,
+.rigcontact-buttonht:focus polyline {
   stroke-width: 3;
 }
 
-.right:active polyline {
+.contact-button:active polyline {
   stroke-width: 6;
   transition: all 100ms ease-in-out;
 }
