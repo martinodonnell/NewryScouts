@@ -96,26 +96,13 @@ hr:after {
     background-color: #F2EDE7;
  }
 
-
- /* .butt{
-    background-color: #FFE627;
-    font-weight: bold;
-    border-radius:0;
-    font-size: 30px;
-    padding: 10px;
-    padding-right: 50px;
-}
-
-.butt:hover{
-    background-color: #006DDF;
-} */
-
 /* Button Animations */
 .contact-button {
   -webkit-appearance: none;
   background: transparent;
   border: 0;
-  outline:0;background-color:#FFE627;
+  outline:0;
+  background-color:#FFE627;
   display: inline-block;
   font-weight: bold;
   border-radius:0;
@@ -160,3 +147,5 @@ polyline {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Button animcation ends */
