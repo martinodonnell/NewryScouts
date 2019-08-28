@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
 .jumbotron{
     background-color:#006DDF !important;
 }
@@ -5,7 +9,7 @@
 
 .jumbotron .social-icon{
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .jumbotron .social-icon:hover{
