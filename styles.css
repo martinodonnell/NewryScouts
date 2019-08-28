@@ -146,3 +146,9 @@ polyline {
 .btn-text{
     text-align: center;
 }
+
+.section-cards{
+    width: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+}
