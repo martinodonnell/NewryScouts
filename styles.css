@@ -121,6 +121,13 @@ hr:after {
   border-radius:0;
   font-size: 24px;
   padding: 10px;
+  color: black;
+  left: 58%;
+}
+
+.contact-button:hover{
+    color: black;
+    text-decoration-line: none;
 }
 
 svg {
@@ -129,9 +136,6 @@ svg {
   vertical-align: middle;
 }
 
-.contact-button {
-  left: 58%;
-}
 
 .contact-button:hover polyline,
 .rigcontact-buttonht:focus polyline {
