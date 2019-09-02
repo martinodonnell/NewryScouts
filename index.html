@@ -1,108 +1,192 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel='stylesheet' href='styles.css'/>
 
 
-  </head>
-  <body>
-      <section class="container">
-          <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-              <!--Fixed width for img-->
-              <!-- <img class="d-none d-md-block img-fluid" width="27px" src="images/scout-logo.png" /> -->
-              <img class="img-fluid" width="70px" src="images/scout-logo.png" />
-      
-            </a>
-      
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-      
-            <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./join.html">Join</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                  </li>
-              </ul>
-      
-            </div>
-          </nav>
-        </section>
+<head>
+  <meta charset='UTF-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='styles.css' />
 
-    <!--Carousel-->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="images/carousel/cub-group-resize.jpg" alt="First slide">
-              <div class="carousel-caption">
-                <h5>Making Friends</h5>
-                <p>Give it a try</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/carousel/cub-beaver-group-resize.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/carousel/scout-group-resize.jpg" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
 
-        <div class="jumbotron">
-          <div class="container">
-            <h1>Welcome to Newry Scouts</h1>
-            <div id="bear-quote">
-              <p><i>Every child has the right to an adventure. Life is about grabbing opportunities. The prizes don’t always go to the biggest, the best and the strongest – they go to those who persevere. These are simple life lessons that Scouting teaches</i></p>
-              <p>- Bear Grylls</p>
-            </div>
-          </div>
-        </div>
+</head>
 
-        <div class="container">
+<body>
+  <section class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img class="img-fluid" width="70px" src="images/scout-logo.png" />
+      </a>
 
-          <h1>What is scouting</h1>
-          <p>Scouting is a Movement of Young People, which helps them to achieve their full potential through a programme based on fun, friendship, challenge, and adventure.
-              Young People in Scouting are supported, encouraged and lead by adult volunteers, all of whom understand the responsibility and trust placed in them by parents and guardians.
-              The encouragement of self-awareness in its members, as individuals and as members of Groups, is fundamental to Scouting. A natural result of this should be that an environment is created where all our members, regardless of age, feel comfortable in expressing their concerns or criticisms and in having those concerns or criticisms dealt with in a clear and structured way.</p>
-        </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="jumbotron">
-            <div class="container">
-              <div id="bear-quote">
-                  <a class="btn btn-primary center-block" href="#" role="button">Join us</a>
-              </div>
-            </div>
-          </div>
+      <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./join.html">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
 
-     
+  <section class="container hero-container">
+    <div class="hero-image" style="background-image: url('images/cub-group-hike.png');">
+      <div class="hero-text">
+        <h1>Newry Scouts</h1>
+      </div>
+      <div class="hero__overlay"></div>
+
     </div>
-  </body>
+  </section>
+
+
+  <section class="container">
+    <hr />
+  </section>
+
+
+  <section class="container">
+    <div class="row">
+
+      <div class="col-sm-12 col-md-7 card-content">
+        <main>
+          <h1>Welcome to Newry Scouts</h1>
+          <p><i>Every child has the right to an adventure. Life is about grabbing opportunities. The prizes don’t always
+              go to the biggest, the best and the strongest – they go to those who persevere. These are simple life
+              lessons that Scouting teaches</i></p>
+          <p>- Bear Grylls</p>
+        </main>
+      </div>
+      <div class="col-sm-12 col-md-5 d-none d-md-block card-content"
+        style="background-image: url('images/bear-grylls.png');min-width: 200px;">
+      </div>
+  </section>
+
+  <section class="container">
+    <hr />
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-5 card-content"
+        style="background-image: url('images/scout-summer-photo-group.png');min-height: 200px;">
+      </div>
+      <div class="col-sm-12 col-md-7 card-content">
+        <main>
+          <h1>What do we do?</h1>
+          <p>1st Dromore scouts have been in Newry for over 75 years. We help teach new skills to young people ranging
+            from 6 to 25 years old. Throughout the year, young people learn teamworking, leadership and adaptability
+            from scout activities such as hiking and camping</p>
+          <a class="contact-button" href="./about.html">
+            <span class="btn-text">Find out more</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+              height="50px" viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                points="
+                  0.375,0.375 45.63,38.087 0.375,75.8 " />
+            </svg>
+          </a>
+        </main>
+      </div>
+
+  </section>
+
+  <section class="container">
+    <hr />
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-7 card-content">
+        <main>
+          <h1>Give it a go</h1>
+          <p>Scouting is for all ages and anyone can join at any time. It is something different that can teach skills
+            that are </p>
+          <a class="contact-button" href="./join.html">
+            <span class="btn-text">Find out more</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+              height="50px" viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                points="
+                    0.375,0.375 45.63,38.087 0.375,75.8 " />
+            </svg>
+          </a>
+        </main>
+      </div>
+      <div class="col-sm-12 col-md-5 d-none d-md-block card-content"
+        style="background-image: url('images/pig-back-scouts.png');min-width: 200px;">
+      </div>
+  </section>
+
+  <section class="container">
+    <hr />
+  </section>
+
+  <section class="jumbotron jumbotron-fluid" style="margin-bottom: 0rem">
+    <div class="container">
+      <div class="row p2">
+        <div class="col-1 mx-1">
+          <a href="https://www.facebook.com/NewryScouts/" target="_blank" class="fa fa-facebook social-icon"></a>
+        </div>
+        <div class="col-1 mx-1">
+          <a href="https://instagram.com/newryscouts/" target="_blank" class="fa fa-instagram social-icon"></a>
+        </div>
+
+        <div class="col-1 mx-1">
+          <a href="https://twitter.com/newryscouts" target="_blank" class="fa fa-twitter social-icon"></a>
+        </div>
+
+        <div class="col-8 text-right">
+          <a class="contact-button" href="./contact.html">
+            <span class="btn-text">Contact us</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+              height="50px" viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                points="
+                      0.375,0.375 45.63,38.087 0.375,75.8 " />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-left">
+          <p class="font-italic" style="color: #FFFFFF">1st Dromore Scouts</p>
+          <p class="font-italic" style="color: #FFFFFF">2 Home Ave, BT34 2DL, Newry</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+</body>
+
 </html>
