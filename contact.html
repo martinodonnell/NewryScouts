@@ -24,9 +24,9 @@
     function SendLinkByMail(href) {
       var subject = "Scouts Website Question";
       body = document.getElementById("email-body").value
-      if(body===""){
+      if (body === "") {
         alert("Please enter your questions in the box below")
-      }else{
+      } else {
         var uri = "mailto:website@newryscouts.com?subject=";
         uri += encodeURIComponent(subject);
         uri += "&body=";
@@ -82,72 +82,87 @@
 
   </br>
 
-  <section class="container">
-      <div class="row">
-        <div class="col-7 d-none d-md-block card-content"
-          style="background-image: url('images/looking-far-in-distance.2.png');">
-        </div>
-        <div class="col-sm-12 col-md-5  card-content">
-          <main>
-            <h1>Contact us on Facebook</h1>
-            <p><span>Facebook can one of the quickest ways to get in contact with us. All the leaders have phones now and can get back to you in no time</p>
-            <a class="contact-button" href="https://www.facebook.com/NewryScouts/" target="_blank">
-              <span class="btn-text">Message on Facebook</span>
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
-                height="50px" viewBox="0 0 50 80" xml:space="preserve">
-                <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
-                  points="
-                      0.375,0.375 45.63,38.087 0.375,75.8 " />
-              </svg>
-            </a>
-          </main>
-        </div>
-    </section>
-
-
 
   <section class="container">
-      <hr />
-    </section>
+    <div class="row">    
 
-  <section class="container">
-    <div class="row">
+      <div class="col-md-6 col-sm-12 card-content">
+        <div id="contact-form" style="padding:5%;">
+          <h1>Email</h1>
+          <p>If you have a questions and prefer to email us. Please use the form below. This will open your email where
+            you can send it off</p>
+          <p>If you prefer to send an email at on your own, please send it to website(at)newryscouts.com</p>
+          <textarea id="email-body" name="email-body" placeholder="What can we help with?"
+            style="width: 100%;height:200px"></textarea>
+          </br>
 
-      <div class="col-6" style="padding:0">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2335.664559788897!2d-6.335962083967511!3d54.16830548015958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860db4fcbc78a4b%3A0xf2ea2a23d98bbb8e!2s1st%20Dromore%20Scouts%20Newry%20City!5e0!3m2!1sen!2suk!4v1567075186738!5m2!1sen!2suk" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-      </div>
-
-      <div class="col-6" style="padding:0">
-        <div id="contact-form" style="padding:5%;background-color:#F2EDE7">
-            <h1>Email</h1>
-            <p>If you have a questions and prefer to email us. Please use the form below. This will open your email where you can send it off</p>
-            <p>If you prefer to send an email at on your own, please send it to website(at)newryscouts.com</p>
-            <textarea id="email-body" name="email-body" placeholder="What can we help with?" style="width: 100%;height:200px"></textarea>
-            </br>
-
-            <button class="contact-button" onclick="SendLinkByMail()">
-              <span class="btn-text">Send Email</span>
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
-                height="50px" viewBox="0 0 50 80" xml:space="preserve">
-                <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
-                  points="
+          <button class="contact-button" onclick="SendLinkByMail()">
+            <span class="btn-text">Send Email</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+              height="50px" viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                points="
                     0.375,0.375 45.63,38.087 0.375,75.8 " />
-              </svg>
-            </button>
+            </svg>
+          </button>
         </div>
+      </div>
+      <div class="col-sm-12 d-block d-md-none">
+        <hr/>
+      </div>
+      <div class="col-sm-12 d-block d-md-none">
+        <h1>Scout Hall Address</h1>
+      </div>
+      <div class="col-md-6 col-sm-12 card-content">       
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2335.664559788897!2d-6.335962083967511!3d54.16830548015958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860db4fcbc78a4b%3A0xf2ea2a23d98bbb8e!2s1st%20Dromore%20Scouts%20Newry%20City!5e0!3m2!1sen!2suk!4v1567075186738!5m2!1sen!2suk"
+          width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       </div>
     </div>
   </section>
 
-  
-  <section class="container">
-      <hr />
-    </section>
 
-    <section class="container">
-      <h1>Forms</h1>
-      <p>With everything new these days, we sometimes have to fill out a couple of forms. These can be found below</p>
-    </section>
+
+
+
+
+
+  <section class="container">
+    <hr />
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-7 d-none d-md-block card-content" style="background-image: url('images/doing-work-looking.jpg');">
+      </div>
+      <div class="col-sm-12 col-md-5  card-content">
+        <main>
+          <h1>Contact us on Facebook</h1>
+          <p><span>Facebook can one of the quickest ways to get in contact with us. Most the leaders are connected now
+              and can get back to you in no time</p>
+          <a class="contact-button" href="https://www.facebook.com/NewryScouts/" target="_blank">
+            <span class="btn-text">Message on Facebook</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+              height="50px" viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                points="
+                    0.375,0.375 45.63,38.087 0.375,75.8 " />
+            </svg>
+          </a>
+        </main>
+      </div>
+  </section>
+
+
+
+  <section class="container">
+    <hr />
+  </section>
+
+  <section class="container">
+    <h1>Forms</h1>
+    <p>With everything new these days, we sometimes have to fill out a couple of forms. These can be found below</p>
+  </section>
 
   </br>
 
