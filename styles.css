@@ -78,6 +78,10 @@ hr:after {
     color: white;
 }
 
+.hero-container{
+    padding:0;
+}
+
 
 .card-content{
     padding: 0;
@@ -85,11 +89,11 @@ hr:after {
     background-size: cover;
     background-position: center;  
     background-color: #F2EDE7;
+
     
 }
 .card-content main { 
     padding: 10%;
-    background-color: #F2EDE7;
  }
 
 /* Button Animations */
