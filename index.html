@@ -21,38 +21,34 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' href='styles.css' />
 
+</head>
+
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
   <script>
     window.fbAsyncInit = function() {
       FB.init({
         xfbml            : true,
-        version          : 'v6.0'
+        version          : 'v7.0'
       });
     };
-    
+
     (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
-
-</head>
-
-<body>
-  <div>
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat"
-      attribution=install_email
-      page_id="127280414090853"
-      theme_color="#0084ff"
-        logged_in_greeting="Hi! Nice to see you. Feel free to send us a message if you have any questions."
-        logged_out_greeting="Hi! Nice to see you. If you're not on Facebook, you can email hello@newryscouts.com to say hi.">
-    </div>
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="127280414090853"
+theme_color="#0084ff"
+logged_in_greeting="Hi! Nice to see you. Feel free to send us a message if you have any questions."
+logged_out_greeting="Hi! Nice to see you. Feel free to send us a message if you have any questions.">
   </div>
   <section class="container">
     <!-- Navbar -->
