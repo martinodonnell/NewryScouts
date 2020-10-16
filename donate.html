@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='styles.css' />
+  <script 
+    src="https://donorbox.org/widget.js" 
+    paypalExpress="true">
+  </script>
+</head>
+<body>  
+  <section class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img class="img-fluid" width="70px" src="images/scout-logo.png" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./join.html">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./donate.html">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section class="container d-flex justify-content-center">
+    <iframe 
+      allowpaymentrequest="" 
+      frameborder="0" 
+      height="900px"
+      name="donorbox" 
+      scrolling="no" 
+      seamless="seamless" 
+      src="https://donorbox.org/embed/newryscouts?default_interval=o" 
+      style="max-width: 500px; min-width: 310px; max-height:none!important" 
+      width="100%">
+    </iframe>
+  </section>
+  <section class="jumbotron jumbotron-fluid" style="margin-bottom: 0rem">
+    <div class="container">
+      <div class="row p2">
+        <div class="col-1 mx-1">
+          <a href="https://www.facebook.com/NewryScouts/" target="_blank" class="fa fa-facebook social-icon"></a>
+        </div>
+        <div class="col-1 mx-1">
+          <a href="https://instagram.com/newryscouts/" target="_blank" class="fa fa-instagram social-icon"></a>
+        </div>
+
+        <div class="col-1 mx-1">
+          <a href="https://twitter.com/newryscouts" target="_blank" class="fa fa-twitter social-icon"></a>
+        </div>
+
+        <div class="col-8 text-right">
+          <a class="contact-button" href="./contact.html">
+            <span class="btn-text">Contact us</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+              height="50px" viewBox="0 0 50 80" xml:space="preserve">
+              <polyline fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                points="
+                      0.375,0.375 45.63,38.087 0.375,75.8 " />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-left">
+          <p class="font-italic" style="color: #FFFFFF">1st Dromore Scouts</p>
+          <p class="font-italic" style="color: #FFFFFF">2 Home Ave, BT34 2DL, Newry</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
